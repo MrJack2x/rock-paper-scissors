@@ -19,6 +19,17 @@ function playerChoice() {
   });
 }
 
+function resetScore() {
+  // Reset the scores
+  playerScore = 0;
+  computerScore = 0;
+  playerScoreDisplay.textContent = playerScore.toString();
+  computerScoreDisplay.textContent = computerScore.toString();
+
+  // Send an alert saying the scores have been reset
+  alert("The scores have been reset!");
+}
+
 function playRound() {
   const computerSelection = computerPlay();
 
