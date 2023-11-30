@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+  background-color: lightgray;
+}
+h1 {
+  margin-bottom: 20px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 5px;
+}
+#scores {
+  margin-top: 30px;
+}
